@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet"/>
+        
+        <!-- Using bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet"/>
+        <meta cahrset="utf-8"/>
+        <meta content="initial-scale=1, width=device-width" name="viewport"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+        <title>ELIZA</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="page-header text-center">
+                <h1>*** ELIZA ***</h1>
+                <small>Original code by Weizenbaum, 1966</small>
+            </div>
+            <div id="big-box">
+                <div id="box">
+                    <div class="eliza">
+                        <p>HI!  I'M ELIZA.  WHAT'S YOUR PROBLEM?</p>
+                    </div>
+                    <p></p>
+                    
+                </div>
+                <br>
+                <form id="form-box">
+                    <input id="message-box" name="message" autocomplete="off" class="form-control input-lg" autofocus placeholder="Message" type="text"/>
+                    <input id="send" class="btn btn-primary btn-lg" type="submit" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
