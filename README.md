@@ -1,6 +1,8 @@
 # Webliza
 Implementation of ELIZA(https://en.wikipedia.org/wiki/ELIZA) in python, with interface to chat with the bot.
 
+[Static part of the project deployed on github pages](https://vipinindkumar.github.io/Webliza/)
+
 Created as a final project for CS50 course.
 
     - scripts.js shows the content of "#message-box"(content you type) in the box as a sended message
@@ -16,6 +18,3 @@ Created as a final project for CS50 course.
 
 
 ![gif of Webliza](/webliza.gif)
-
-
-[Static part of the project deployed on github pages](https://vipinindkumar.github.io/Webliza/)
